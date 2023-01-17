@@ -12,24 +12,38 @@
 - Genetic Algorithm Success
 	- Find optimial settings of 3-layer CNN 
 
-- Missing Link
+- Goal
 	- Evolutionary algorithms not employed for hyper parameter tuning in deep RL 
 
-- Possible Reason 
-	- Lack of 
+- Pitfalls
+	- Infinite compute cycles for trial and error episodes in genetic algorithms
+	- DeepRL is still in infancy 
 
-## 2. Hyperparameters
+- HPS-RL
+	- scalable deployment library
+	- executes a genetic algorithm 
+
+- Contributions
+	- Automated multi-objective search using genetic algorithms
+	- Leverage multiple threads and parallel processing to improve search time 
+
+
+## 2. Identifying Hyperparameters
+
+- Grid search 
 
 ## 3. Bayesian Optimization for Hyperparameter Search
 
-- H Function
-	- expected maximizaiton
-	- maximum probability of maximization
-	- upper confidence bound
-	- entropy search 
+- Bayesian Optimization
+	- hyperparameter search on non-convex search spaces
 
-- Bayesian Optimization Process
-
+- Fitness function approximated using gaussian kernels 
+	- Use a function to determine next best point
+		- expected maximizaiton
+		- maximum probability of maximization
+		- upper confidence bound
+		- entropy search 
+	- Perform gradient based optimization
 
 ## 4. HPS-RL 
 
@@ -43,8 +57,7 @@
 
 - Example
 	- Genes = Hyperparameters
-		- gamma, alpha, number of neurons 
-		- activiation functions, elpsion, number of layers
+		- gamma, alpha, number of neurons, activiation functions, elpsion, number of layers
 	- Evaluation = reward from 100 steps in gym
 	- Selection = random distribution across sucessfull parents 
 	- Cross Over = swap hyperparameters 
@@ -57,10 +70,10 @@
 
 ## 5. Software
 
-- 3 parts 
+- 3 python packages
 	- collection of genetic algorithm functions
-	- benchmark gym environments
-	- benchmark deep RL algorithms 
+	- benchmarks of gym environments
+	- benchmark of deep RL algorithms with optimization functions
 
 - Implementation
 	- Submit jobs from single head node 
@@ -70,18 +83,50 @@
 	- Nvidia GeForce RTX 2070 
 
 - Packages
-	- mpi4py 
+	- mpi4py
+
+- Optimization Methods
+	- Conjugate Gradient
+		- Fast convergence but poor performance
+	- Broyden-Fletcher-Golfarb-Shanno (BFGS)
+		- Uses quasi-newtons methods to solve unconstrained optimization problems
+	- Levenberg-Marquardt
+		- Solves sum-of-square of non-linear functions
+		- Behaves initially like gradient descent, then like the gauss-newton method
 
 ## 6. Experimental Results 
+
+- Use three environments
+	- Cartpole
+	- Lunar Landing
+	- Autonomous laser control 
+
+- Better fitness is few episodes of training achieved in all environments
+
+- Performing on multiple GPUs increase total time, which can be improved via parallelism in the future
 
 
 ## 7. Related Work 
 
 - RL Applications
+	- Integrate multiple RL algorithms to solve cartpole
 - Hyperparameter Search 
-- Hyperparameter Tuning Libraries 
+	- Bayesian Optimization + Bandit Methods > Hyperband
+- Additional Hyperparameter Tuning Libraries 
+	- Hyperopt, Polyaxon
+
+- Bayesian optimization methods performs poorly with large hyperparamter spaces
 
 ## 8. Conclusion
+
+- Bayesian optimization (BO) requires large number of episodes to receive optimized results 
+- Genetic algorithms (GA) provide more exploration, and therefore better optimization than BO 
+- GA can be parallelized, while BO cannot 
+- BO works well on continous hyperparameter surfaces, but early RL learning benefits more from GA's randomness
+
+
+## Unresolved Questions
+- Significance of figures 5a and 5b
 
 
 ## References
