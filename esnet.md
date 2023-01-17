@@ -128,6 +128,10 @@
 ## Unresolved Questions
 - Significance of figures 5a and 5b
 
+## Research Ideas
+- Understand why genetic algorithms aren't used current used in deep RL
+	- Explore population-based training methods
+
 
 ## References
 - https://github.com/esnet/hps-rl 
@@ -140,4 +144,7 @@
 	- Hyperband 
 - https://optuna.org/
 	- Optuna 
-
+- https://lilianweng.github.io/posts/2019-09-05-evolution-strategies/#extension-ea-in-deep-learning
+	- Lil'Log Blog
+- https://docs.ray.io/en/latest/tune/examples/pbt_guide.html
+	- Population Based Training
