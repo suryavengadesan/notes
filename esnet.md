@@ -129,7 +129,7 @@
 - Significance of figures 5a and 5b
 
 ## Research Ideas
-- Understand why genetic algorithms aren't used current used in deep RL
+- Better understand current hyperparameter tuning methods in deep RL
 	- Explore population-based training methods
 
 
