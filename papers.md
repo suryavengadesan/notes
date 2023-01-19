@@ -1,3 +1,69 @@
+# Scallop: From Probabilistic Deductive Databases to Scalable Differentiable Reasoning
+
+https://openreview.net/forum?id=ngdcA1tlDvj 
+
+## Abstract
+
+- Scallop
+	- builds upon probabalistic deductive databases
+	- develops a provenance framework of a tunable hyperparameter to specify reasoning granularity
+		- (i) generalizes exact probabalistic reasoning
+		- (ii) asymmtotically reduces computational cost 
+		- (iii) provides relative accuracy guarantees 
+
+
+## 1. Intro
+
+## 2. Illustrative Overview
+
+## 3. Background
+
+- Datadog = logic programming language 
+
+- Syntax
+	- Datalog program = (set of facts, set of rules, query)
+	- Atom = (predicate, list of argument terms)
+
+
+- Semantics
+	- Executioin of Datalog program
+		- Set of all new derived facts using input facts and rules in a bottom-up evaluation strategy 
+
+- Probability Extensions
+	- f = probabilistic input fact
+		- P(f) = 1, means deterministic fact
+		- P(f) < 1, means input fact f has associated probability 
+	- J = disjoint probabilities for a given fact f 
+	- probabilistic database = set of all input facts and their disjoint probabilites 
+	- probabilistic datalog program = probabilistic database along with all rules and queries
+
+- Probability Calculations
+	- 
+
+
+## 4. Framework
+
+## 5. Evaluation
+
+## 6. Discussion and Limitaitons
+
+## 7. Related Work
+
+## 8. Conclusion and Future Work 
+
+## Unresolved Questions
+- What is a probabilistic database 
+
+## Research Ideas
+
+
+## References
+- https://en.wikipedia.org/wiki/Probabilistic_database
+	- Probabilistic databse 
+- https://scallop-lang.github.io/ 	
+	- Scallop Website 
+
+
 # Hyperparameter Tuning for Deep RL Applications
 - https://arxiv.org/pdf/2201.11182.pdf
 
