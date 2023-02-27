@@ -1,8 +1,55 @@
+# How to Build Research System
+https://ratul.org/papers/ccr2010-howto.pdf
+
+## Abstract
+- inspired by Hal Varian on building economic models
+
+## 1. Introduction 
+
+## 2. Building a Research System
+- Pick domain carefully
+- Know problem well before building
+- Debate several solution ideas
+- Have core idea build behind the build
+- Smart small when building
+- Make it real
+
+## 3. 
+
+## 4. 
+
+## 5. Idea Triage 
+
+## 6. Building and Evaluating
+
+## 7. Making it Real 
+
+# Systems Research Advice by Lalith Suresh [TODO]
+
+https://lalith.in/2020/09/27/Low-Level-Advice-For-Systems-Research/
+
+# Systems Research Checklist [TODO]
+https://obssr.od.nih.gov/sites/obssr/files/inline-files/best-practices-consensus-statement-FINAL-508.pdf
+
+
+# How to do systems research [TODO]
+
+https://www.cse.iitk.ac.in/users/biswap/HTDSR.pdf 
+
+# Modularity in RL via Algorithmic Independence in Credit Assigment
+
+https://arxiv.org/pdf/2106.14993.pdf
+
+# DynamoDB [TODO]
+
+https://assets.amazon.science/33/9d/b77f13fe49a798ece85cf3f9be6d/amazon-dynamodb-a-scalable-predictably-performant-and-fully-managed-nosql-database-service.pdf
+
+
 # From Cloud Computing to Sky Computing 
 
 https://sigops.org/s/conferences/hotos/2021/papers/hotos21-s02-stoica.pdf 
 
-## 3. Lessons from the Internet 
+## 3. Lessons from the Intmernet 
 
 ## 4. Compatability Layer 
 
