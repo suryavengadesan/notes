@@ -1,14 +1,36 @@
+# Algorithms
+
+# PPO
+# DDPG
+
+# Concepts
+
+# Sample Efficiency
+# Data Efficiency
+# Exploration-Exploitation Tradeoff
+
+# Theses
+
+# Towards Truely Open-ended Reinforcement Learning
+https://ora.ox.ac.uk/objects/uuid:e20bd6be-2a47-4e0f-bb6f-30df290e58c8
+
+# Papers
+# Automated Reinforcement Learning: An Overview
+https://arxiv.org/pdf/2201.05000.pdf
+
+
+# Sample Efficient Automated Deep Reinforcement Learning
+https://arxiv.org/pdf/2009.01555.pdf
+
 # Tuning Mixed Input Hyperparameters on the Fly for Efficient Population Based AutoRL
 https://arxiv.org/pdf/2106.15883.pdf
 
 ## Introduction
 
-
 # Gray-box Gaussian Processes for Automated Reinforcement Learning
 https://openreview.net/pdf?id=rmoMvptXK7M
 
 ## Abstract
-
 - novel BO technique
     - enrich gaussian processes with reward curve estimations 
     - employs generalized logistic functions
@@ -38,7 +60,6 @@ https://arxiv.org/pdf/2306.01324.pdf
 
 ## Conclusion
 
-
 # AutoRL: Survey and Open Problems
 https://arxiv.org/pdf/2201.03916.pdf
 
@@ -48,7 +69,6 @@ https://arxiv.org/pdf/2201.03916.pdf
 
 - Inner loop optimization
 - Outer loop optimization
-
 
 # FLAML
 https://arxiv.org/pdf/1911.04706.pdf 
